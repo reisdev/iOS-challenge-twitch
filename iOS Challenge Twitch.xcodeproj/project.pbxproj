@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57FCDBD2A955ED800F2E258 /* iOS_Challenge_TwitchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCDBC2A955ED800F2E258 /* iOS_Challenge_TwitchApp.swift */; };
+		C57FCDBF2A955ED800F2E258 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCDBE2A955ED800F2E258 /* ContentView.swift */; };
+		C57FCDC12A955ED900F2E258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57FCDC02A955ED900F2E258 /* Assets.xcassets */; };
+		C57FCDC42A955ED900F2E258 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57FCDC32A955ED900F2E258 /* Preview Assets.xcassets */; };
+		C57FCDCE2A955ED900F2E258 /* iOS_Challenge_TwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCDCD2A955ED900F2E258 /* iOS_Challenge_TwitchTests.swift */; };
+		C57FCDD82A955ED900F2E258 /* iOS_Challenge_TwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCDD72A955ED900F2E258 /* iOS_Challenge_TwitchUITests.swift */; };
+		C57FCDDA2A955ED900F2E258 /* iOS_Challenge_TwitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCDD92A955ED900F2E258 /* iOS_Challenge_TwitchUITestsLaunchTests.swift */; };
+		C57FCE0C2A95619800F2E258 /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCE002A95619800F2E258 /* ColorExtensions.swift */; };
+		C57FCE0D2A95619800F2E258 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCE032A95619800F2E258 /* HomeScreen.swift */; };
+		C57FCE0E2A95619800F2E258 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCE052A95619800F2E258 /* SignUpView.swift */; };
+		C57FCE0F2A95619800F2E258 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCE062A95619800F2E258 /* OnboardingView.swift */; };
+		C57FCE102A95619800F2E258 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCE072A95619800F2E258 /* SplashScreen.swift */; };
+		C57FCE112A95619800F2E258 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCE092A95619800F2E258 /* RoundedCorner.swift */; };
+		C57FCE122A95619800F2E258 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCE0A2A95619800F2E258 /* PageIndicator.swift */; };
+		C57FCE132A95619800F2E258 /* iOSCheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57FCE0B2A95619800F2E258 /* iOSCheckboxToggleStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C57FCDCA2A955ED900F2E258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57FCDB12A955ED800F2E258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C57FCDB82A955ED800F2E258;
+			remoteInfo = "IOS Challenge Twitch";
+		};
+		C57FCDD42A955ED900F2E258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C57FCDB12A955ED800F2E258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C57FCDB82A955ED800F2E258;
+			remoteInfo = "IOS Challenge Twitch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C57FCDB92A955ED800F2E258 /* iOS Challenge Twitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Challenge Twitch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57FCDBC2A955ED800F2E258 /* iOS_Challenge_TwitchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Challenge_TwitchApp.swift; sourceTree = "<group>"; };
+		C57FCDBE2A955ED800F2E258 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C57FCDC02A955ED900F2E258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C57FCDC32A955ED900F2E258 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C57FCDC92A955ED900F2E258 /* iOS Challenge TwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Challenge TwitchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57FCDCD2A955ED900F2E258 /* iOS_Challenge_TwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Challenge_TwitchTests.swift; sourceTree = "<group>"; };
+		C57FCDD32A955ED900F2E258 /* iOS Challenge TwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Challenge TwitchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57FCDD72A955ED900F2E258 /* iOS_Challenge_TwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Challenge_TwitchUITests.swift; sourceTree = "<group>"; };
+		C57FCDD92A955ED900F2E258 /* iOS_Challenge_TwitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Challenge_TwitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C57FCE002A95619800F2E258 /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		C57FCE032A95619800F2E258 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		C57FCE052A95619800F2E258 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C57FCE062A95619800F2E258 /* OnboardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C57FCE072A95619800F2E258 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		C57FCE092A95619800F2E258 /* RoundedCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		C57FCE0A2A95619800F2E258 /* PageIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		C57FCE0B2A95619800F2E258 /* iOSCheckboxToggleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSCheckboxToggleStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57FCDB62A955ED800F2E258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FCDC62A955ED900F2E258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FCDD02A955ED900F2E258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C57FCDB02A955ED800F2E258 = {
+			isa = PBXGroup;
+			children = (
+				C57FCDBB2A955ED800F2E258 /* iOS Challenge Twitch */,
+				C57FCDCC2A955ED900F2E258 /* iOS Challenge TwitchTests */,
+				C57FCDD62A955ED900F2E258 /* iOS Challenge TwitchUITests */,
+				C57FCDBA2A955ED800F2E258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C57FCDBA2A955ED800F2E258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCDB92A955ED800F2E258 /* iOS Challenge Twitch.app */,
+				C57FCDC92A955ED900F2E258 /* iOS Challenge TwitchTests.xctest */,
+				C57FCDD32A955ED900F2E258 /* iOS Challenge TwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57FCDBB2A955ED800F2E258 /* iOS Challenge Twitch */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCE082A95619800F2E258 /* Components */,
+				C57FCDFF2A95619800F2E258 /* Extensions */,
+				C57FCE012A95619800F2E258 /* Screens */,
+				C57FCDBC2A955ED800F2E258 /* iOS_Challenge_TwitchApp.swift */,
+				C57FCDBE2A955ED800F2E258 /* ContentView.swift */,
+				C57FCDC02A955ED900F2E258 /* Assets.xcassets */,
+				C57FCDC22A955ED900F2E258 /* Preview Content */,
+			);
+			path = "iOS Challenge Twitch";
+			sourceTree = "<group>";
+		};
+		C57FCDC22A955ED900F2E258 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCDC32A955ED900F2E258 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C57FCDCC2A955ED900F2E258 /* iOS Challenge TwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCDCD2A955ED900F2E258 /* iOS_Challenge_TwitchTests.swift */,
+			);
+			path = "iOS Challenge TwitchTests";
+			sourceTree = "<group>";
+		};
+		C57FCDD62A955ED900F2E258 /* iOS Challenge TwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCDD72A955ED900F2E258 /* iOS_Challenge_TwitchUITests.swift */,
+				C57FCDD92A955ED900F2E258 /* iOS_Challenge_TwitchUITestsLaunchTests.swift */,
+			);
+			path = "iOS Challenge TwitchUITests";
+			sourceTree = "<group>";
+		};
+		C57FCDFF2A95619800F2E258 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCE002A95619800F2E258 /* ColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C57FCE012A95619800F2E258 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCE022A95619800F2E258 /* Home */,
+				C57FCE072A95619800F2E258 /* SplashScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		C57FCE022A95619800F2E258 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCE032A95619800F2E258 /* HomeScreen.swift */,
+				C57FCE042A95619800F2E258 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C57FCE042A95619800F2E258 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCE052A95619800F2E258 /* SignUpView.swift */,
+				C57FCE062A95619800F2E258 /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C57FCE082A95619800F2E258 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C57FCE092A95619800F2E258 /* RoundedCorner.swift */,
+				C57FCE0A2A95619800F2E258 /* PageIndicator.swift */,
+				C57FCE0B2A95619800F2E258 /* iOSCheckboxToggleStyle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C57FCDB82A955ED800F2E258 /* iOS Challenge Twitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57FCDDD2A955ED900F2E258 /* Build configuration list for PBXNativeTarget "iOS Challenge Twitch" */;
+			buildPhases = (
+				C57FCDB52A955ED800F2E258 /* Sources */,
+				C57FCDB62A955ED800F2E258 /* Frameworks */,
+				C57FCDB72A955ED800F2E258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Challenge Twitch";
+			productName = "IOS Challenge Twitch";
+			productReference = C57FCDB92A955ED800F2E258 /* iOS Challenge Twitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C57FCDC82A955ED900F2E258 /* iOS Challenge TwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57FCDE02A955ED900F2E258 /* Build configuration list for PBXNativeTarget "iOS Challenge TwitchTests" */;
+			buildPhases = (
+				C57FCDC52A955ED900F2E258 /* Sources */,
+				C57FCDC62A955ED900F2E258 /* Frameworks */,
+				C57FCDC72A955ED900F2E258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57FCDCB2A955ED900F2E258 /* PBXTargetDependency */,
+			);
+			name = "iOS Challenge TwitchTests";
+			productName = "IOS Challenge TwitchTests";
+			productReference = C57FCDC92A955ED900F2E258 /* iOS Challenge TwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C57FCDD22A955ED900F2E258 /* iOS Challenge TwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57FCDE32A955ED900F2E258 /* Build configuration list for PBXNativeTarget "iOS Challenge TwitchUITests" */;
+			buildPhases = (
+				C57FCDCF2A955ED900F2E258 /* Sources */,
+				C57FCDD02A955ED900F2E258 /* Frameworks */,
+				C57FCDD12A955ED900F2E258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C57FCDD52A955ED900F2E258 /* PBXTargetDependency */,
+			);
+			name = "iOS Challenge TwitchUITests";
+			productName = "IOS Challenge TwitchUITests";
+			productReference = C57FCDD32A955ED900F2E258 /* iOS Challenge TwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57FCDB12A955ED800F2E258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C57FCDB82A955ED800F2E258 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C57FCDC82A955ED900F2E258 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C57FCDB82A955ED800F2E258;
+					};
+					C57FCDD22A955ED900F2E258 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C57FCDB82A955ED800F2E258;
+					};
+				};
+			};
+			buildConfigurationList = C57FCDB42A955ED800F2E258 /* Build configuration list for PBXProject "iOS Challenge Twitch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C57FCDB02A955ED800F2E258;
+			productRefGroup = C57FCDBA2A955ED800F2E258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57FCDB82A955ED800F2E258 /* iOS Challenge Twitch */,
+				C57FCDC82A955ED900F2E258 /* iOS Challenge TwitchTests */,
+				C57FCDD22A955ED900F2E258 /* iOS Challenge TwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C57FCDB72A955ED800F2E258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57FCDC42A955ED900F2E258 /* Preview Assets.xcassets in Resources */,
+				C57FCDC12A955ED900F2E258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FCDC72A955ED900F2E258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FCDD12A955ED900F2E258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C57FCDB52A955ED800F2E258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57FCE112A95619800F2E258 /* RoundedCorner.swift in Sources */,
+				C57FCE0D2A95619800F2E258 /* HomeScreen.swift in Sources */,
+				C57FCE0E2A95619800F2E258 /* SignUpView.swift in Sources */,
+				C57FCE102A95619800F2E258 /* SplashScreen.swift in Sources */,
+				C57FCDBF2A955ED800F2E258 /* ContentView.swift in Sources */,
+				C57FCE0F2A95619800F2E258 /* OnboardingView.swift in Sources */,
+				C57FCE132A95619800F2E258 /* iOSCheckboxToggleStyle.swift in Sources */,
+				C57FCDBD2A955ED800F2E258 /* iOS_Challenge_TwitchApp.swift in Sources */,
+				C57FCE122A95619800F2E258 /* PageIndicator.swift in Sources */,
+				C57FCE0C2A95619800F2E258 /* ColorExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FCDC52A955ED900F2E258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57FCDCE2A955ED900F2E258 /* iOS_Challenge_TwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C57FCDCF2A955ED900F2E258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57FCDD82A955ED900F2E258 /* iOS_Challenge_TwitchUITests.swift in Sources */,
+				C57FCDDA2A955ED900F2E258 /* iOS_Challenge_TwitchUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C57FCDCB2A955ED900F2E258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C57FCDB82A955ED800F2E258 /* iOS Challenge Twitch */;
+			targetProxy = C57FCDCA2A955ED900F2E258 /* PBXContainerItemProxy */;
+		};
+		C57FCDD52A955ED900F2E258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C57FCDB82A955ED800F2E258 /* iOS Challenge Twitch */;
+			targetProxy = C57FCDD42A955ED900F2E258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C57FCDDB2A955ED900F2E258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C57FCDDC2A955ED900F2E258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C57FCDDE2A955ED900F2E258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Challenge Twitch/Preview Content\"";
+				DEVELOPMENT_TEAM = VK9JADUS66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.IOS-Challenge-Twitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C57FCDDF2A955ED900F2E258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS Challenge Twitch/Preview Content\"";
+				DEVELOPMENT_TEAM = VK9JADUS66;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.IOS-Challenge-Twitch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C57FCDE12A955ED900F2E258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK9JADUS66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.IOS-Challenge-TwitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Challenge Twitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Challenge Twitch";
+			};
+			name = Debug;
+		};
+		C57FCDE22A955ED900F2E258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK9JADUS66;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.IOS-Challenge-TwitchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Challenge Twitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS Challenge Twitch";
+			};
+			name = Release;
+		};
+		C57FCDE42A955ED900F2E258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK9JADUS66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.IOS-Challenge-TwitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Challenge Twitch";
+			};
+			name = Debug;
+		};
+		C57FCDE52A955ED900F2E258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VK9JADUS66;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.IOS-Challenge-TwitchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Challenge Twitch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C57FCDB42A955ED800F2E258 /* Build configuration list for PBXProject "iOS Challenge Twitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57FCDDB2A955ED900F2E258 /* Debug */,
+				C57FCDDC2A955ED900F2E258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57FCDDD2A955ED900F2E258 /* Build configuration list for PBXNativeTarget "iOS Challenge Twitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57FCDDE2A955ED900F2E258 /* Debug */,
+				C57FCDDF2A955ED900F2E258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57FCDE02A955ED900F2E258 /* Build configuration list for PBXNativeTarget "iOS Challenge TwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57FCDE12A955ED900F2E258 /* Debug */,
+				C57FCDE22A955ED900F2E258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57FCDE32A955ED900F2E258 /* Build configuration list for PBXNativeTarget "iOS Challenge TwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57FCDE42A955ED900F2E258 /* Debug */,
+				C57FCDE52A955ED900F2E258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C57FCDB12A955ED800F2E258 /* Project object */;
+}
