@@ -22,7 +22,7 @@ enum OnboardingContent: Int, CaseIterable, Identifiable {
         case .chat:
             return "Chat with people and watch together"
         case .signUp:
-            return "Create your account to have a custom experience"
+            return "Sign up to have a custom experience"
         }
     }
 
@@ -65,13 +65,13 @@ struct OnboardingView: View {
                 .font(.title)
                 .multilineTextAlignment(.center)
                 .fontWeight(.black)
-                .padding(.horizontal, 24.0)
+                .padding(.horizontal, 16.0)
                 .padding(.top, 16.0)
             Text(content.description)
                 .foregroundColor(.secondary)
                 .font(.headline)
                 .multilineTextAlignment(.center)
-                .padding(.horizontal, 24.0)
+                .padding(.horizontal, 16.0)
             Button {
                 onTapAction?()
             } label: {
@@ -84,7 +84,6 @@ struct OnboardingView: View {
                 .padding(16.0)
             Spacer()
         }
-        .frame(minHeight: 200)
     }
 }
 

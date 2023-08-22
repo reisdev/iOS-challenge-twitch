@@ -69,7 +69,7 @@ struct HomeScreen: View {
                     }
                 }
                 .animation(.easeInOut, value: homeStep)
-                .frame(maxWidth: .infinity)
+                .frame(maxWidth: .infinity, maxHeight: homeStep == .onboarding ? 300 : .infinity)
                 .background(.background)
                 .clipShape(RoundedCorner(radius: 24,
                                          corners: [.topLeft, .topRight]))
